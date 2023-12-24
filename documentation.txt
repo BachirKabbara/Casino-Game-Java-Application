@@ -1,0 +1,35 @@
+Casino Game Java Application Documentation
+------------------------------------------
+
+1. Overview:
+   - The Casino Game is a simple console-based Java application that simulates a casino experience with games like Rock-Paper-Scissors and a Lottery game. It allows users to manage their balance, play games, and view information about the games.
+
+2. Files:
+   - CasinoGame.java: The main file containing the source code for the application.
+
+3. Main Components:
+   - User Authentication: Users can create a username and set a password that meets certain criteria.
+   - Balance Management: Users can view, deposit, and withdraw their balance.
+   - Games: Two games are available: Rock-Paper-Scissors and a Lottery game.
+   - Information: Users can access information about how to play the games and manage their balance.
+
+4. Classes and Methods:
+   - CasinoGame: The main class that contains all the logic for the application.
+     - main(String[] args): The entry point of the application. Handles the main application loop and user interactions.
+     - checkpassword(String password): Validates the user's password based on specified criteria.
+
+5. Games Logic:
+   - Rock-Paper-Scissors: Users play against the computer in a best of three format. The user's balance is updated based on the result.
+   - Lottery: Users guess a 3-digit number, trying to match a randomly generated number. The balance is updated based on how accurately they guess.
+
+6. Balance Management:
+   - Users must enter their password to access balance management features.
+   - Users can deposit or withdraw funds, and the balance is updated accordingly.
+
+7. Input/Output:
+   - The application uses the Scanner class to read user input and System.out to print messages to the console.
+
+8. Error Handling:
+   - The application provides feedback and prompts the user to re-enter choices when unrecognized input is provided.
+
+Please review the source code in CasinoGame.java for a detailed understanding of the application's functionality and structure.
